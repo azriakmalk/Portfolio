@@ -1,8 +1,19 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import swal from "sweetalert";
 
 export default class index extends Component {
+  componentDidMount() {
+    this.tampilpesan();
+  }
+  tampilpesan = () => {
+    const pesan = document.querySelector(".pesan");
+    pesan.addEventListener("click", (event) => {
+      event.preventDefault();
+      swal("WARNING !", "Cooming Soon...");
+    });
+  };
   render() {
     return (
       <div>
@@ -29,14 +40,6 @@ export default class index extends Component {
                 aria-hidden="false"
                 tabindex="0"
               ></iframe>
-              {/* <ul class="collection with-header">
-                <li class="collection-header">
-                  <h4>Our Office</h4>
-                </li>
-                <li class="collection-item">Azri Akmal Kurniawan</li>
-                <li class="collection-item">Jl.Raya Lap Tembak No.3a</li>
-                <li class="collection-item">Jakarta, Indoneia</li>
-              </ul> */}
             </div>
             <div class="col m7 s12">
               <form>
@@ -75,7 +78,7 @@ export default class index extends Component {
                     ></textarea>
                     <label for="message">Message</label>
                   </div>
-                  <button type="submit" class="btn blue darken-2">
+                  <button type="submit" class="btn blue darken-2 pesan">
                     SEND
                   </button>
                 </div>

@@ -41,6 +41,7 @@
     "@fortawesome/react-fontawesome": "^0.1.13",
     "axios": "^0.21.0",
     "materialize-css": "^1.0.0-rc.2",
-    "react-materialize": "^3.9.3"
+    "react-materialize": "^3.9.3",
+    "sweetalert": "^2.1.2"
   }
 }
