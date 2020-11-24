@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/Navbar'
+import Slider from './component/Slider'
+import About from './component/AboutUs'
+import Parallax from './component/Parallax'
+import Portfolio from './component/Portfolio'
+import Contact from './component/ContactUs'
+import Footer from './component/Footer'
+import 'materialize-css/dist/css/materialize.min.css'
 
-function App() {
+
+
+function App() {  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/> 
+      <Slider/>
+      <About/>
+      <Parallax/>
+      <Portfolio/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

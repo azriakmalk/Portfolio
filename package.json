@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -34,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "axios": "^0.21.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "react-materialize": "^3.9.3"
   }
 }
