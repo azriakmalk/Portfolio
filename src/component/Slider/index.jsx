@@ -22,7 +22,7 @@ export default class index extends Component {
               </div>
             </li>
             <li>
-              <img src="https://lorempixel.com/900/650/nature" alt="2" />
+              <img src="https://lorempixel.com/900/650/technics" alt="2" />
               <div class="caption left-align">
                 <h3>Left Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">
