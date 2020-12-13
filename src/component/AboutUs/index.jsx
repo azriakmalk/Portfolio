@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Azri from "../../asset";
+import { Azri } from "../../asset";
 import M from "materialize-css";
 
 export default class index extends Component {
@@ -23,11 +23,7 @@ export default class index extends Component {
               </p>
             </div>
             <div className="col m3 s12 offset-m1">
-              <img
-                class="materialboxed responsive-img"
-                src={Azri}
-                alt="azri"
-              />
+              <img class="materialboxed responsive-img" src={Azri} alt="azri" />
             </div>
           </div>
         </div>

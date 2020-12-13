@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "./style.css";
+import { Pf2, Pf5, Pf6, Pf8 } from "../../asset";
 
 export default class index extends Component {
   componentDidMount() {
@@ -13,7 +14,7 @@ export default class index extends Component {
         <div id="home" class="slider scrollspy">
           <ul class="slides">
             <li>
-              <img src="https://lorempixel.com/900/650/food" alt="1" />
+              <img src={Pf8} alt="1" />
               <div class="caption center-align">
                 <h3>Center Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">
@@ -22,7 +23,7 @@ export default class index extends Component {
               </div>
             </li>
             <li>
-              <img src="https://lorempixel.com/900/650/technics" alt="2" />
+              <img src={Pf5} alt="2" />
               <div class="caption left-align">
                 <h3>Left Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">
@@ -31,7 +32,7 @@ export default class index extends Component {
               </div>
             </li>
             <li>
-              <img src="https://lorempixel.com/900/650/cats" alt="3" />
+              <img src={Pf2} alt="3" />
               <div class="caption right-align">
                 <h3>Right Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">
@@ -40,7 +41,7 @@ export default class index extends Component {
               </div>
             </li>
             <li>
-              <img src="https://lorempixel.com/900/650/sports" alt="4" />
+              <img src={Pf6} alt="4" />
               <div class="caption center-align">
                 <h3>Center Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">

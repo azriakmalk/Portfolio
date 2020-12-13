@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "./style.css";
+import { Parallax } from "../../asset";
 
 export default class index extends Component {
   componentDidMount() {
@@ -12,7 +13,7 @@ export default class index extends Component {
       <div>
         <div id="parallax" class="parallax-container scrollspy">
           <div class="parallax">
-            <img src="http://lorempixel.com/900/650/technics/" alt="parallax" />
+            <img src={Parallax} alt="parallax" />
           </div>
         </div>
       </div>
