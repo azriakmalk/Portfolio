@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import M from "materialize-css";
+import { Sanduk } from "../../asset";
 
 export default class index extends Component {
   componentDidMount() {
@@ -15,7 +16,7 @@ export default class index extends Component {
             <div className="col m3">
               <img
                 class="materialboxed responsive-img"
-                src="http://lorempixel.com/900/650/technics/"
+                src={Sanduk}
                 alt="teknik1"
               />
             </div>
